@@ -1,0 +1,17 @@
+torch
+torchvision
+transformers 
+accelerate
+qwen-vl-utils
+ultralytics
+lap>=0.5.12
+opencv-python
+datasets 
+decord
+pandas 
+numpy<2
+matplotlib 
+tqdm 
+scikit-learn
+gradio<6
+fsspec<=2025.10.0

@@ -1,0 +1,22 @@
+# Python/runtime artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local datasets and generated media
+Sports-QA/
+sportsqa_videos/
+outputs/
+scripts/.video_cache/
+
+# Generated frame extracts
+data/guided_clip_frames/
+data/guided_frames/
+data/uniform_frames/
+
+# Downloaded model weights and archives
+*.pt
+*.pth
+*.onnx
+*.zip

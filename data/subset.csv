@@ -1,0 +1,61 @@
+sample_id,qa_id,split,video_id,video_path,question,answer,question_type,ans_cls
+1,18454,train,basketball/v_jZY5cZWGWKE_c003_00,sportsqa_videos\opened_samples\basketball\v_jZY5cZWGWKE_c003_00.avi,How does the right team fail to do 2-point shot?,basketball missed,Causal,24
+2,16858,train,basketball/v_EGtCLk5BksU_c012_00,sportsqa_videos\opened_samples\basketball\v_EGtCLk5BksU_c012_00.avi,What are the players doing in the video?,basketball,Descriptive,6
+3,18703,train,basketball/v_4LXTUim5anY_c014_00,sportsqa_videos\opened_samples\basketball\v_4LXTUim5anY_c014_00.avi,Does any team score in the video?,yes,Descriptive,27
+4,20051,train,basketball/v_SHFVKZ6HJc8_c012_01,sportsqa_videos\opened_samples\basketball\v_SHFVKZ6HJc8_c012_01.avi,What is the reason for the defensive rebound of the right team?,basketball 2-point shot,Causal,53
+5,19962,train,basketball/v_lkZY0naa0-o_c007_00,sportsqa_videos\opened_samples\basketball\v_lkZY0naa0-o_c007_00.avi,How does the left team gain a score in the video?,basketball 3-point shot,Descriptive,47
+6,18645,train,basketball/v_I-tZTTBt3rc_c008_00,sportsqa_videos\opened_samples\basketball\v_I-tZTTBt3rc_c008_00.avi,What is the video about?,basketball,Descriptive,6
+7,20490,train,basketball/v_en2wx__oWmE_c005_00,sportsqa_videos\opened_samples\basketball\v_en2wx__oWmE_c005_00.avi,What is the video about?,basketball,Descriptive,6
+8,20261,train,basketball/v_kguAFIlDI4E_c012_01,sportsqa_videos\opened_samples\basketball\v_kguAFIlDI4E_c012_01.avi,What is the video about?,basketball,Descriptive,6
+9,18144,train,basketball/v_4LXTUim5anY_c002_00,sportsqa_videos\opened_samples\basketball\v_4LXTUim5anY_c002_00.avi,Does any team score in the video?,yes,Descriptive,27
+10,19910,train,basketball/v_6OLC1-bhioc_c002_00,sportsqa_videos\opened_samples\basketball\v_6OLC1-bhioc_c002_00.avi,What are the players doing in the video?,basketball,Descriptive,6
+11,18046,train,basketball/v_l9wUr-CK1Y4_c001_01,sportsqa_videos\opened_samples\basketball\v_l9wUr-CK1Y4_c001_01.avi,Does the right team do 3-point shot successfully?,no,Descriptive,3
+12,19324,train,basketball/v_-9kabh1K8UA_c004_00,sportsqa_videos\opened_samples\basketball\v_-9kabh1K8UA_c004_00.avi,Is the first 2-point shot of the left team successful?,no,Descriptive,3
+13,18357,train,basketball/v_6OLC1-bhioc_c005_00,sportsqa_videos\opened_samples\basketball\v_6OLC1-bhioc_c005_00.avi,What is the cause of the left team doing defensive rebound?,basketball 3-point shot,Causal,47
+14,19583,train,basketball/v_l4OIaX8_D10_c002_02,sportsqa_videos\opened_samples\basketball\v_l4OIaX8_D10_c002_02.avi,Is the 2-point shot of the left team successful?,yes,Descriptive,27
+15,17828,train,basketball/v_C94HDW9HYzU_c001_00,sportsqa_videos\opened_samples\basketball\v_C94HDW9HYzU_c001_00.avi,Does the left team do defensive rebound successfully?,no,Descriptive,3
+16,17766,train,basketball/v_f6a3B499nwY_c006_00,sportsqa_videos\opened_samples\basketball\v_f6a3B499nwY_c006_00.avi,Which team scores in the video?,left team,Descriptive,13
+17,18320,train,basketball/v_rYquruzj9hc_c009_00,sportsqa_videos\opened_samples\basketball\v_rYquruzj9hc_c009_00.avi,Does the right team do free throw successfully?,yes,Descriptive,27
+18,20268,train,basketball/v_kguAFIlDI4E_c012_01,sportsqa_videos\opened_samples\basketball\v_kguAFIlDI4E_c012_01.avi,How does the right team gain a score in the video?,basketball 2-point shot,Descriptive,53
+19,19444,train,basketball/v_6OLC1-bhioc_c003_04,sportsqa_videos\opened_samples\basketball\v_6OLC1-bhioc_c003_04.avi,What are the players doing in the video?,basketball,Descriptive,6
+20,18773,train,basketball/v_4nikeBZNYRE_c005_00,sportsqa_videos\opened_samples\basketball\v_4nikeBZNYRE_c005_00.avi,What is the video about?,basketball,Descriptive,6
+21,17298,train,basketball/v_V4tIg2zSbWU_c007_00,sportsqa_videos\opened_samples\basketball\v_V4tIg2zSbWU_c007_00.avi,What is the video about?,basketball,Descriptive,6
+22,17377,train,basketball/v_6oTxfzKdG6Q_c005_00,sportsqa_videos\opened_samples\basketball\v_6oTxfzKdG6Q_c005_00.avi,Does any team gain a point?,yes,Descriptive,27
+23,19953,train,basketball/v_7FTsO8S3h88_c003_00,sportsqa_videos\opened_samples\basketball\v_7FTsO8S3h88_c003_00.avi,Does the left team do 2-point shot successfully?,yes,Descriptive,27
+24,20200,train,basketball/v_ERsBxGv2JxY_c015_01,sportsqa_videos\opened_samples\basketball\v_ERsBxGv2JxY_c015_01.avi,Which team scores in the video?,left team,Descriptive,13
+25,20293,train,basketball/v_A4OJhlI6hgc_c005_02,sportsqa_videos\opened_samples\basketball\v_A4OJhlI6hgc_c005_02.avi,How does the left team win a point in the video?,basketball 2-point shot,Descriptive,53
+26,18321,train,basketball/v_rYquruzj9hc_c009_00,sportsqa_videos\opened_samples\basketball\v_rYquruzj9hc_c009_00.avi,Is the free throw of the right team successful?,yes,Descriptive,27
+27,18602,train,basketball/v_rYquruzj9hc_c010_00,sportsqa_videos\opened_samples\basketball\v_rYquruzj9hc_c010_00.avi,Does the right team do 2-point shot successfully?,yes,Descriptive,27
+28,17001,train,basketball/v_DC3D_JZQUqQ_c009_00,sportsqa_videos\opened_samples\basketball\v_DC3D_JZQUqQ_c009_00.avi,What are the players doing in the video?,basketball,Descriptive,6
+29,18328,train,basketball/v_00HRwkvvjtQ_c001_04,sportsqa_videos\opened_samples\basketball\v_00HRwkvvjtQ_c001_04.avi,How does the right team win a point in the video?,basketball 2-point shot,Descriptive,53
+30,16889,train,basketball/v_42VrMbd68Zg_c003_06,sportsqa_videos\opened_samples\basketball\v_42VrMbd68Zg_c003_06.avi,What are the players doing in the video?,basketball,Descriptive,6
+31,19914,train,basketball/v_6OLC1-bhioc_c002_00,sportsqa_videos\opened_samples\basketball\v_6OLC1-bhioc_c002_00.avi,How does the right team fail to do 2-point shot?,basketball defensive foul,Causal,36
+32,17848,train,basketball/v_UPbRcF0SSo0_c010_01,sportsqa_videos\opened_samples\basketball\v_UPbRcF0SSo0_c010_01.avi,Does any team gain a point?,no,Descriptive,3
+33,18307,train,basketball/v_DC3D_JZQUqQ_c011_01,sportsqa_videos\opened_samples\basketball\v_DC3D_JZQUqQ_c011_01.avi,Does any team score in the video?,no,Descriptive,3
+34,20444,train,basketball/v_-6Os86HzwCs_c004_01,sportsqa_videos\opened_samples\basketball\v_-6Os86HzwCs_c004_01.avi,Does any team gain a point?,yes,Descriptive,27
+35,20212,train,basketball/v_f6a3B499nwY_c007_01,sportsqa_videos\opened_samples\basketball\v_f6a3B499nwY_c007_01.avi,Which team scores in the video?,left team,Descriptive,13
+36,18232,train,basketball/v_-9kabh1K8UA_c600_00,sportsqa_videos\opened_samples\basketball\v_-9kabh1K8UA_c600_00.avi,Is the pass steal of the left team successful?,no,Descriptive,3
+37,19274,train,basketball/v_iO0QqaR5E24_c008_01,sportsqa_videos\opened_samples\basketball\v_iO0QqaR5E24_c008_01.avi,What is the cause of the left team doing defensive rebound?,basketball 3-point shot,Causal,47
+38,19384,train,basketball/v_icDf81dWZHw_c011_01,sportsqa_videos\opened_samples\basketball\v_icDf81dWZHw_c011_01.avi,What is the video about?,basketball,Descriptive,6
+39,19064,train,basketball/v_hDBjIvCw7Kk_c001_02,sportsqa_videos\opened_samples\basketball\v_hDBjIvCw7Kk_c001_02.avi,What is the reason for the defensive rebound of the left team?,basketball 2-point shot,Causal,53
+40,18280,train,basketball/v_kguAFIlDI4E_c011_00,sportsqa_videos\opened_samples\basketball\v_kguAFIlDI4E_c011_00.avi,Does any team gain a point?,no,Descriptive,3
+41,17081,train,basketball/v_SHFVKZ6HJc8_c603_00,sportsqa_videos\opened_samples\basketball\v_SHFVKZ6HJc8_c603_00.avi,How does the left team win a point in the video?,basketball 3-point shot,Descriptive,47
+42,16926,train,basketball/v_iO0QqaR5E24_c001_01,sportsqa_videos\opened_samples\basketball\v_iO0QqaR5E24_c001_01.avi,Why does the right team do defensive rebound?,basketball 2-point shot,Causal,53
+43,19717,train,basketball/v_l4OIaX8_D10_c007_00,sportsqa_videos\opened_samples\basketball\v_l4OIaX8_D10_c007_00.avi,Does the right team do 2-point shot successfully?,no,Descriptive,3
+44,16991,train,basketball/v_l4OIaX8_D10_c002_00,sportsqa_videos\opened_samples\basketball\v_l4OIaX8_D10_c002_00.avi,What is the video about?,basketball,Descriptive,6
+45,16744,train,basketball/v_00HRwkvvjtQ_c001_05,sportsqa_videos\opened_samples\basketball\v_00HRwkvvjtQ_c001_05.avi,Does the left team do defensive rebound successfully?,no,Descriptive,3
+46,19853,train,basketball/v_-6Os86HzwCs_c001_01,sportsqa_videos\opened_samples\basketball\v_-6Os86HzwCs_c001_01.avi,What is the video about?,basketball,Descriptive,6
+47,20162,train,basketball/v_InvO0NFpSIw_c606_00,sportsqa_videos\opened_samples\basketball\v_InvO0NFpSIw_c606_00.avi,What is the reason for the defensive rebound of the left team?,basketball 2-point shot,Causal,53
+48,20276,train,basketball/v_aVfJwdQxCsU_c007_00,sportsqa_videos\opened_samples\basketball\v_aVfJwdQxCsU_c007_00.avi,Why is the 2-point shot of the right team failed?,basketball missed,Causal,24
+49,17135,train,basketball/v_SHFVKZ6HJc8_c602_00,sportsqa_videos\opened_samples\basketball\v_SHFVKZ6HJc8_c602_00.avi,Does any team gain a point?,no,Descriptive,3
+50,19356,train,basketball/v_C94HDW9HYzU_c002_00,sportsqa_videos\opened_samples\basketball\v_C94HDW9HYzU_c002_00.avi,Does any team gain a point?,yes,Descriptive,27
+51,18516,train,basketball/v_jZY5cZWGWKE_c009_01,sportsqa_videos\opened_samples\basketball\v_jZY5cZWGWKE_c009_01.avi,How does the left team gain a score in the video?,basketball 2-point shot,Descriptive,53
+52,20049,train,basketball/v_SHFVKZ6HJc8_c012_01,sportsqa_videos\opened_samples\basketball\v_SHFVKZ6HJc8_c012_01.avi,Why is the 2-point shot of the left team failed?,basketball missed,Causal,24
+53,18404,train,basketball/v_4r8QL_wglzQ_c008_00,sportsqa_videos\opened_samples\basketball\v_4r8QL_wglzQ_c008_00.avi,What is the video about?,basketball,Descriptive,6
+54,18924,train,basketball/v_-6Os86HzwCs_c003_00,sportsqa_videos\opened_samples\basketball\v_-6Os86HzwCs_c003_00.avi,What is the video about?,basketball,Descriptive,6
+55,17873,train,basketball/v_4r8QL_wglzQ_c007_00,sportsqa_videos\opened_samples\basketball\v_4r8QL_wglzQ_c007_00.avi,What is the video about?,basketball,Descriptive,6
+56,20180,train,basketball/v_6OLC1-bhioc_c006_00,sportsqa_videos\opened_samples\basketball\v_6OLC1-bhioc_c006_00.avi,Does any team score in the video?,yes,Descriptive,27
+57,18939,train,basketball/v_5ekaksddqrc_c005_00,sportsqa_videos\opened_samples\basketball\v_5ekaksddqrc_c005_00.avi,Does any team gain a point?,no,Descriptive,3
+58,17517,train,basketball/v_5ekaksddqrc_c003_00,sportsqa_videos\opened_samples\basketball\v_5ekaksddqrc_c003_00.avi,Why does the left team do defensive rebound?,basketball 2-point shot,Causal,53
+59,17228,train,basketball/v_42VrMbd68Zg_c012_02,sportsqa_videos\opened_samples\basketball\v_42VrMbd68Zg_c012_02.avi,Which team wins a point in the video?,left team,Descriptive,13
+60,18600,train,basketball/v_rYquruzj9hc_c010_00,sportsqa_videos\opened_samples\basketball\v_rYquruzj9hc_c010_00.avi,How does the right team win a point in the video?,basketball 2-point shot,Descriptive,53

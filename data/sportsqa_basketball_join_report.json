@@ -1,0 +1,345 @@
+{
+  "source_annotations": [
+    "sportsqa_videos\\meta-data\\train.json",
+    "sportsqa_videos\\meta-data\\val.json",
+    "sportsqa_videos\\meta-data\\test.json"
+  ],
+  "source_video_archive": "sportsqa_videos\\basketball.zip",
+  "normalized_annotation_file": "data\\sportsqa_basketball_qa.jsonl",
+  "subset_file": "data\\subset.csv",
+  "target_qa_pairs": 60,
+  "selected_splits": [
+    "train"
+  ],
+  "random_seed": 42,
+  "total_qa_rows": 94073,
+  "total_unique_videos": 5967,
+  "basketball_qa_rows": 6714,
+  "basketball_unique_qa_videos": 879,
+  "basketball_archive_videos": 957,
+  "joined_basketball_videos": 879,
+  "selected_qa_pairs": 60,
+  "selected_unique_videos": 55,
+  "selected_question_type_counts": {
+    "Causal": 11,
+    "Descriptive": 49
+  },
+  "all_basketball_question_type_counts": {
+    "Descriptive": 5629,
+    "Counterfactual": 278,
+    "Temporal": 22,
+    "Causal": 785
+  },
+  "missing_qa_videos_from_archive": [],
+  "archive_videos_without_qa": [
+    "basketball/v_-6Os86HzwCs_c006_01",
+    "basketball/v_-9kabh1K8UA_c003_01",
+    "basketball/v_00HRwkvvjtQ_c010_01",
+    "basketball/v_2BhBRkkAqbQ_c004_01",
+    "basketball/v_2j7kLB-vEEk_c002_03",
+    "basketball/v_2j7kLB-vEEk_c006_01",
+    "basketball/v_4LXTUim5anY_c001_01",
+    "basketball/v_4LXTUim5anY_c006_01",
+    "basketball/v_4LXTUim5anY_c015_01",
+    "basketball/v_4nikeBZNYRE_c004_01",
+    "basketball/v_4r8QL_wglzQ_c006_01",
+    "basketball/v_4r8QL_wglzQ_c008_01",
+    "basketball/v_5ekaksddqrc_c001_02",
+    "basketball/v_6OLC1-bhioc_c001_03",
+    "basketball/v_6OLC1-bhioc_c002_01",
+    "basketball/v_7FTsO8S3h88_c003_01",
+    "basketball/v_7FTsO8S3h88_c007_02",
+    "basketball/v_A4OJhlI6hgc_c002_03",
+    "basketball/v_BdD9xu0E2H4_c002_01",
+    "basketball/v_BdD9xu0E2H4_c003_02",
+    "basketball/v_BdD9xu0E2H4_c010_01",
+    "basketball/v_BgwzTUxJaeU_c010_01",
+    "basketball/v_C94HDW9HYzU_c003_01",
+    "basketball/v_C94HDW9HYzU_c011_01",
+    "basketball/v_C94HDW9HYzU_c014_02",
+    "basketball/v_DC3D_JZQUqQ_c003_01",
+    "basketball/v_DC3D_JZQUqQ_c005_01",
+    "basketball/v_EGtCLk5BksU_c012_01",
+    "basketball/v_EGtCLk5BksU_c608_01",
+    "basketball/v_ERsBxGv2JxY_c002_01",
+    "basketball/v_FH9KE8FSmig_c015_01",
+    "basketball/v_I-tZTTBt3rc_c002_02",
+    "basketball/v_I-tZTTBt3rc_c009_01",
+    "basketball/v_InvO0NFpSIw_c003_01",
+    "basketball/v_InvO0NFpSIw_c010_01",
+    "basketball/v_InvO0NFpSIw_c014_01",
+    "basketball/v_InvO0NFpSIw_c607_01",
+    "basketball/v_It_vvQR6RPM_c005_01",
+    "basketball/v_It_vvQR6RPM_c008_01",
+    "basketball/v_It_vvQR6RPM_c011_01",
+    "basketball/v_It_vvQR6RPM_c013_01",
+    "basketball/v_JbiWR0AWKys_c001_00",
+    "basketball/v_JbiWR0AWKys_c001_01",
+    "basketball/v_JbiWR0AWKys_c006_01",
+    "basketball/v_K5PFNpiP5aY_c003_01",
+    "basketball/v_K5PFNpiP5aY_c007_01",
+    "basketball/v_K5PFNpiP5aY_c009_01",
+    "basketball/v_SHFVKZ6HJc8_c002_01",
+    "basketball/v_SHFVKZ6HJc8_c011_01",
+    "basketball/v_UPbRcF0SSo0_c002_02",
+    "basketball/v_UPbRcF0SSo0_c008_01",
+    "basketball/v_V4tIg2zSbWU_c001_02",
+    "basketball/v_V4tIg2zSbWU_c004_01",
+    "basketball/v_V4tIg2zSbWU_c008_02",
+    "basketball/v_aVfJwdQxCsU_c001_01",
+    "basketball/v_aVfJwdQxCsU_c001_04",
+    "basketball/v_bQNDRprvpus_c004_01",
+    "basketball/v_bQNDRprvpus_c010_01",
+    "basketball/v_en2wx__oWmE_c001_01",
+    "basketball/v_en2wx__oWmE_c007_01",
+    "basketball/v_en2wx__oWmE_c009_01",
+    "basketball/v_f6a3B499nwY_c004_02",
+    "basketball/v_fL2LfHQIwsY_c003_03",
+    "basketball/v_gdtetu4nnZc_c002_00",
+    "basketball/v_gdtetu4nnZc_c002_01",
+    "basketball/v_gdtetu4nnZc_c002_02",
+    "basketball/v_hDBjIvCw7Kk_c001_03",
+    "basketball/v_hDBjIvCw7Kk_c004_01",
+    "basketball/v_hDBjIvCw7Kk_c006_03",
+    "basketball/v_iO0QqaR5E24_c002_02",
+    "basketball/v_icDf81dWZHw_c003_02",
+    "basketball/v_l4OIaX8_D10_c008_01",
+    "basketball/v_l4OIaX8_D10_c009_01",
+    "basketball/v_l4OIaX8_D10_c010_02",
+    "basketball/v_l9wUr-CK1Y4_c001_03",
+    "basketball/v_l9wUr-CK1Y4_c005_01",
+    "basketball/v_lkZY0naa0-o_c006_02",
+    "basketball/v_lkZY0naa0-o_c008_02"
+  ],
+  "sample_annotation": {
+    "qa_id": 18454,
+    "split": "train",
+    "video_id": "basketball/v_jZY5cZWGWKE_c003_00",
+    "question": "How does the right team fail to do 2-point shot?",
+    "answer": "basketball missed",
+    "question_type": "Causal",
+    "ans_cls": 24
+  },
+  "sample_clips": [
+    {
+      "video_id": "basketball/v_-6Os86HzwCs_c001_01",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_-6Os86HzwCs_c001_01.avi"
+    },
+    {
+      "video_id": "basketball/v_-6Os86HzwCs_c003_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_-6Os86HzwCs_c003_00.avi"
+    },
+    {
+      "video_id": "basketball/v_-6Os86HzwCs_c004_01",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_-6Os86HzwCs_c004_01.avi"
+    },
+    {
+      "video_id": "basketball/v_-9kabh1K8UA_c004_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_-9kabh1K8UA_c004_00.avi"
+    },
+    {
+      "video_id": "basketball/v_-9kabh1K8UA_c600_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_-9kabh1K8UA_c600_00.avi"
+    },
+    {
+      "video_id": "basketball/v_00HRwkvvjtQ_c001_04",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_00HRwkvvjtQ_c001_04.avi"
+    },
+    {
+      "video_id": "basketball/v_00HRwkvvjtQ_c001_05",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_00HRwkvvjtQ_c001_05.avi"
+    },
+    {
+      "video_id": "basketball/v_42VrMbd68Zg_c003_06",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_42VrMbd68Zg_c003_06.avi"
+    },
+    {
+      "video_id": "basketball/v_42VrMbd68Zg_c012_02",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_42VrMbd68Zg_c012_02.avi"
+    },
+    {
+      "video_id": "basketball/v_4LXTUim5anY_c002_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_4LXTUim5anY_c002_00.avi"
+    },
+    {
+      "video_id": "basketball/v_4LXTUim5anY_c014_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_4LXTUim5anY_c014_00.avi"
+    },
+    {
+      "video_id": "basketball/v_4nikeBZNYRE_c005_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_4nikeBZNYRE_c005_00.avi"
+    },
+    {
+      "video_id": "basketball/v_4r8QL_wglzQ_c007_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_4r8QL_wglzQ_c007_00.avi"
+    },
+    {
+      "video_id": "basketball/v_4r8QL_wglzQ_c008_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_4r8QL_wglzQ_c008_00.avi"
+    },
+    {
+      "video_id": "basketball/v_5ekaksddqrc_c003_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_5ekaksddqrc_c003_00.avi"
+    },
+    {
+      "video_id": "basketball/v_5ekaksddqrc_c005_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_5ekaksddqrc_c005_00.avi"
+    },
+    {
+      "video_id": "basketball/v_6OLC1-bhioc_c002_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_6OLC1-bhioc_c002_00.avi"
+    },
+    {
+      "video_id": "basketball/v_6OLC1-bhioc_c003_04",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_6OLC1-bhioc_c003_04.avi"
+    },
+    {
+      "video_id": "basketball/v_6OLC1-bhioc_c005_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_6OLC1-bhioc_c005_00.avi"
+    },
+    {
+      "video_id": "basketball/v_6OLC1-bhioc_c006_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_6OLC1-bhioc_c006_00.avi"
+    },
+    {
+      "video_id": "basketball/v_6oTxfzKdG6Q_c005_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_6oTxfzKdG6Q_c005_00.avi"
+    },
+    {
+      "video_id": "basketball/v_7FTsO8S3h88_c003_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_7FTsO8S3h88_c003_00.avi"
+    },
+    {
+      "video_id": "basketball/v_A4OJhlI6hgc_c005_02",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_A4OJhlI6hgc_c005_02.avi"
+    },
+    {
+      "video_id": "basketball/v_C94HDW9HYzU_c001_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_C94HDW9HYzU_c001_00.avi"
+    },
+    {
+      "video_id": "basketball/v_C94HDW9HYzU_c002_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_C94HDW9HYzU_c002_00.avi"
+    },
+    {
+      "video_id": "basketball/v_DC3D_JZQUqQ_c009_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_DC3D_JZQUqQ_c009_00.avi"
+    },
+    {
+      "video_id": "basketball/v_DC3D_JZQUqQ_c011_01",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_DC3D_JZQUqQ_c011_01.avi"
+    },
+    {
+      "video_id": "basketball/v_EGtCLk5BksU_c012_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_EGtCLk5BksU_c012_00.avi"
+    },
+    {
+      "video_id": "basketball/v_ERsBxGv2JxY_c015_01",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_ERsBxGv2JxY_c015_01.avi"
+    },
+    {
+      "video_id": "basketball/v_I-tZTTBt3rc_c008_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_I-tZTTBt3rc_c008_00.avi"
+    },
+    {
+      "video_id": "basketball/v_InvO0NFpSIw_c606_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_InvO0NFpSIw_c606_00.avi"
+    },
+    {
+      "video_id": "basketball/v_SHFVKZ6HJc8_c012_01",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_SHFVKZ6HJc8_c012_01.avi"
+    },
+    {
+      "video_id": "basketball/v_SHFVKZ6HJc8_c602_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_SHFVKZ6HJc8_c602_00.avi"
+    },
+    {
+      "video_id": "basketball/v_SHFVKZ6HJc8_c603_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_SHFVKZ6HJc8_c603_00.avi"
+    },
+    {
+      "video_id": "basketball/v_UPbRcF0SSo0_c010_01",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_UPbRcF0SSo0_c010_01.avi"
+    },
+    {
+      "video_id": "basketball/v_V4tIg2zSbWU_c007_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_V4tIg2zSbWU_c007_00.avi"
+    },
+    {
+      "video_id": "basketball/v_aVfJwdQxCsU_c007_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_aVfJwdQxCsU_c007_00.avi"
+    },
+    {
+      "video_id": "basketball/v_en2wx__oWmE_c005_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_en2wx__oWmE_c005_00.avi"
+    },
+    {
+      "video_id": "basketball/v_f6a3B499nwY_c006_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_f6a3B499nwY_c006_00.avi"
+    },
+    {
+      "video_id": "basketball/v_f6a3B499nwY_c007_01",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_f6a3B499nwY_c007_01.avi"
+    },
+    {
+      "video_id": "basketball/v_hDBjIvCw7Kk_c001_02",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_hDBjIvCw7Kk_c001_02.avi"
+    },
+    {
+      "video_id": "basketball/v_iO0QqaR5E24_c001_01",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_iO0QqaR5E24_c001_01.avi"
+    },
+    {
+      "video_id": "basketball/v_iO0QqaR5E24_c008_01",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_iO0QqaR5E24_c008_01.avi"
+    },
+    {
+      "video_id": "basketball/v_icDf81dWZHw_c011_01",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_icDf81dWZHw_c011_01.avi"
+    },
+    {
+      "video_id": "basketball/v_jZY5cZWGWKE_c003_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_jZY5cZWGWKE_c003_00.avi"
+    },
+    {
+      "video_id": "basketball/v_jZY5cZWGWKE_c009_01",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_jZY5cZWGWKE_c009_01.avi"
+    },
+    {
+      "video_id": "basketball/v_kguAFIlDI4E_c011_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_kguAFIlDI4E_c011_00.avi"
+    },
+    {
+      "video_id": "basketball/v_kguAFIlDI4E_c012_01",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_kguAFIlDI4E_c012_01.avi"
+    },
+    {
+      "video_id": "basketball/v_l4OIaX8_D10_c002_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_l4OIaX8_D10_c002_00.avi"
+    },
+    {
+      "video_id": "basketball/v_l4OIaX8_D10_c002_02",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_l4OIaX8_D10_c002_02.avi"
+    },
+    {
+      "video_id": "basketball/v_l4OIaX8_D10_c007_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_l4OIaX8_D10_c007_00.avi"
+    },
+    {
+      "video_id": "basketball/v_l9wUr-CK1Y4_c001_01",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_l9wUr-CK1Y4_c001_01.avi"
+    },
+    {
+      "video_id": "basketball/v_lkZY0naa0-o_c007_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_lkZY0naa0-o_c007_00.avi"
+    },
+    {
+      "video_id": "basketball/v_rYquruzj9hc_c009_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_rYquruzj9hc_c009_00.avi"
+    },
+    {
+      "video_id": "basketball/v_rYquruzj9hc_c010_00",
+      "local_path": "sportsqa_videos\\opened_samples\\basketball\\v_rYquruzj9hc_c010_00.avi"
+    }
+  ]
+}
